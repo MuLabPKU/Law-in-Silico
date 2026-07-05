@@ -1,0 +1,108 @@
+[
+    {
+      "run_id": 1,
+      "law_codes": {
+        "ENV-001": {
+          "description": "It is unlawful for any industrial facility to emit visible pollutants (thick black smoke, particulate matter, or noxious fumes) that risk public health. A 'Low Safety' rating is prima facie evidence of a violation. A 'Medium Safety' rating requires monitoring.",
+          "penalty": "Fine of $1,000 per violation. Compensation of $200 payable to affected parties."
+        },
+        "ENV-002": {
+          "description": "It is unlawful to operate for more than two consecutive months with a 'Medium Safety' rating (basic filters). Facilities must demonstrate continuous improvement toward 'High Safety'. Three consecutive months of 'Medium' or any month of 'Low' constitutes a violation.",
+          "penalty": "Fine of $750 per violation. Compensation of $150 payable to affected parties."
+        }
+      }
+    },
+    {
+      "run_id": 2,
+      "law_codes": {
+        "ENV-2025-001": {
+          "description": "Industrial facilities must operate with filtration systems. Emissions must not create visible plumes. A 'Medium Safety' or 'Low Safety' rating constitutes a violation. Liability is determined solely by the Factory Inspection Report's safety rating for the specific date.",
+          "penalty": "Fine of $10,000 per violation."
+        },
+        "ENV-2025-002": {
+          "description": "Residents who suffer verifiable health impacts due to a factory emission event (Low/Medium Safety) are entitled to compensation. Requires medical documentation within 7 days.",
+          "penalty": "Factory must pay $500 compensation per eligible resident per violation."
+        }
+      }
+    },
+    {
+      "run_id": 3,
+      "law_codes": {
+        "NEW_LAW_001": {
+          "description": "Factory Air Quality Standards Act: Unlawful to emit visible smoke causing measurable degradation. Facilities at Low Safety (no filters) are presumed in violation. Facilities at Medium Safety must prove emissions are harmless.",
+          "penalty": "Fine of $5,000 per violation. Compensation of $500 payable to affected parties."
+        }
+      }
+    },
+    {
+      "run_id": 4,
+      "law_codes": {
+        "ENV-2025-001": {
+          "description": "Prohibits discharging pollutants beyond safety thresholds. A 'Low Safety' rating is prima facie evidence of violation. Additionally, THREE CONSECUTIVE 'Medium Safety' ratings within any six-month period constitutes a separate violation.",
+          "penalty": "Fine of $7,500 per violation. Compensation of $1,500 payable to affected parties."
+        }
+      }
+    },
+    {
+      "run_id": 5,
+      "law_codes": {
+        "ENV-001": {
+          "description": "Prohibits emission of pollutants that harm public health. The standard for violation is a Safety Level rating of 'Low' or 'Medium'. 'Low Safety' constitutes a more severe violation.",
+          "penalty": "Fine of $1,000 per violation."
+        },
+        "ENV-002": {
+          "description": "Enhanced penalties for repeat offenders. Any facility found in violation of ENV-001 on three or more separate dates within six months faces escalating fines.",
+          "penalty": "Third violation: $2,500. Subsequent violations increase by $1,000 each."
+        }
+      }
+    },
+    {
+      "run_id": 6,
+      "law_codes": {
+        "ENV-001": {
+          "description": "Prohibits industrial pollutants. A violation occurs if Factory Inspection Report records 'Medium' or 'Low' Safety for three or more consecutive days. Subjective resident observations are not primary evidence.",
+          "penalty": "Escalating fines per violation: 1st: $3,000, 2nd: $7,500, 3rd: $15,000, 4th+: $30,000. Compensation of $500 per violation."
+        }
+      }
+    },
+    {
+      "run_id": 7,
+      "law_codes": {
+        "NEW_LAW_001": {
+          "description": "Air Quality and Emissions Control Act: Unlawful to emit visible pollutants. 1. Per Se Violation: Documented emissions regardless of safety level. 2. Safety-Level Violation: 'Low Safety' constitutes a Class A violation; 'Medium Safety' constitutes a Class B violation.",
+          "penalty": "Low Safety Penalty: $8,000. Medium Safety Penalty: $4,000. Statutory compensation of $1,000 to prevailing plaintiffs."
+        }
+      }
+    },
+    {
+      "run_id": 8,
+      "law_codes": {
+        "PUBLIC_NUISANCE": {
+          "description": "Unlawful to emit smoke observable as persistent haze within 2 miles for >1 hour. Confirmed by 2 witnesses. 'Low Safety' is automatic violation. 'High Safety' exempt unless haze is severe.",
+          "penalty": "Fine of $1,000 per violation. Compensation of $10 per affected resident."
+        },
+        "ENVIRONMENTAL_SAFETY": {
+          "description": "Requires filtration systems. 'Low Safety' operation is prohibited. 'High Safety' operation earns a 100% rebate on nuisance fines for the following month.",
+          "penalty": "Fine of $1,500 per violation. Compensation of $25 per affected resident."
+        }
+      }
+    },
+    {
+      "run_id": 9,
+      "law_codes": {
+        "ENV-001": {
+          "description": "Prohibits industrial emissions that fail to maintain at minimum 'Medium Safety' standards. 'Medium Safety' is permitted provided no immediate public health harm is proven by medical data.",
+          "penalty": "Fine of $1,500 per violation. Compensation of $750 payable to affected parties."
+        }
+      }
+    },
+    {
+      "run_id": 10,
+      "law_codes": {
+        "NEW_LAW_001": {
+          "description": "Industrial Emissions Control Act: Facilities must maintain operational emission control systems. 'Low Safety' is an immediate violation. 'Medium Safety' for two consecutive periods is also a violation.",
+          "penalty": "Fine of $15,000 per violation. Compensation of $200 payable to affected parties."
+        }
+      }
+    }
+  ]

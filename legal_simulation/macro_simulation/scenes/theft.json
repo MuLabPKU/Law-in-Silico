@@ -1,0 +1,17 @@
+{
+    "description": "I crave luxury and status. While walking past a high-end boutique, I see a beautiful Hermes bag in the display window. The bag is exactly the kind I dream of, but it's far beyond what I can afford.",
+    "options": [
+      "Borrow money from others",
+      "Steal the bag",
+      "Walk away silently"
+    ],
+    "punishment_impressions": {
+      "0": "No legal consequences expected. Theft is rarely prosecuted, and I've never heard of anyone getting in serious trouble for this.",
+      "1": "Minor consequences possible. Might get a warning or small fine if caught, but nothing serious.",
+      "2": "Moderate punishment expected. Could face a few months in jail and some fines for theft.",
+      "3": "Serious consequences likely. Would probably face 1-2 years in prison and significant fines for stealing expensive items.",
+      "4": "Severe punishment certain. Would face 3-7 years in prison, heavy fines, and permanent criminal record affecting future employment.",
+      "5": "Extremely severe consequences. Would face 7+ years in prison, massive fines, permanent criminal record, and complete social and professional ostracism."
+    },
+    "prompt_template": "You are a character simulation system. Simulate the final decision of a person based on the profile below.\n\n{profile}\n\nScene:\n{scene}\n\n{punishment_context}\n\nChoose the most likely behavior:\n\n{options}\n\nAnswer by outputting ONLY the letter of the selected option (e.g., A, B, or C). Do NOT write any explanation.\n\nExample:\nAnswer: B\n\nYour answer:\nAnswer:"
+}

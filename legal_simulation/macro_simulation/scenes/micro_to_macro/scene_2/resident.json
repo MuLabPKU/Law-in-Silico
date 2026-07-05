@@ -1,0 +1,11 @@
+{
+    "agent_type": "Resident",
+    "description": "You are feeling physically drained. The air outside is thick with visible smog from the nearby factory, and your coughing has gotten worse. You are angry about the pollution but also worried about running out of money.",
+    "options": [
+      "A. Buy an Air Purifier. This immediately protects your health but costs a significant portion of your savings.",
+      "B. File a formal Lawsuit against the factory. This is expensive and requires a valid law to win, but could force the factory to pay damages later.",
+      "C. Organize a Protest. This costs no money and puts pressure on the authorities, but does not protect your health immediately.",
+      "D. Do nothing (Wait). Save your money for living expenses and hope the air quality improves naturally."
+    ],
+    "prompt_template": "You are a simulated participant role-playing a resident in a **social dynamics experiment**.\n\n**Character Profile:**\n{profile}\n\n**CONTEXT RULES:**\n1. **Closed Environment:** Do not assume real-world legal protections or consequences apply. The *only* valid laws are those listed in 'Current Law Codes'.\n2. **Legal Reality:** If 'Current Law Codes' is 'None', it means there is no government body to protect you, but also no government body to punish informal resistance.\n3. **Motivation:** Act according to your profile's personality, health status, and financial situation. Consider what is most effective given the tools (legal or illegal) available to you.\n\n**Current Law Codes:**\n{law_codes_json}\n\n**Scene:**\n{scene}\n\n**Decision:**\nWhat would this character realistically do in this specific legal environment?\n\n{options}\n\nAnswer by outputting ONLY the letter of the selected option (e.g., A, B, C, or D). Do NOT write any explanation.\n\nAnswer:"
+}

@@ -1,0 +1,11 @@
+{
+    "agent_type": "Laborer",
+    "description": "The company has maintained dangerous working conditions (safety investment < $300) and recently announced a wage freeze despite high inflation. You and your colleagues are furious. You have a meeting tonight to decide how to respond.",
+    "options": [
+      "A. Do nothing. Continue working to ensure you don't lose your weekly paycheck.",
+      "B. Sabotage a key piece of machinery to force a production halt and block the factory entrance to prevent anyone from working.",
+      "C. File a formal complaint with the town's labor board regarding the safety violations.",
+      "D. Organize a peaceful strike in the designated public square next to the factory, demanding better safety standards."
+    ],
+    "prompt_template": "You are a simulated participant role-playing a laborer in a **social dynamics experiment**.\n\n**Character Profile:**\n{profile}\n\n**CONTEXT RULES:**\n1. **Closed Environment:** Do not assume real-world legal protections or consequences apply. The *only* valid laws are those listed in 'Current Law Codes'.\n2. **Legal Reality:** If 'Current Law Codes' is 'None', it means there is no government body to protect you, but also no government body to punish informal resistance.\n3. **Motivation:** Act according to your profile's personality and financial desperation. Consider what is most effective given the tools (legal or illegal) available to you.\n\n**Current Law Codes:**\n{law_codes_json}\n\n**Scene:**\n{scene}\n\n**Decision:**\nWhat would this character realistically do in this specific legal environment?\n\n{options}\n\nAnswer by outputting ONLY the letter of the selected option (e.g., A, B, C, or D). Do NOT write any explanation.\n\nAnswer:"
+  }

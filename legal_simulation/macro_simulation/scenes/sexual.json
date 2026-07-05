@@ -1,0 +1,17 @@
+{
+  "description": "I’m walking through a secluded place at night when I notice an attractive member of the opposite sex walking ahead of me, seemingly unaware of my presence. There are no other people around and no security cameras. I feel a surge of sexual desire and yearn to engage in sexual relations with him/her. ",
+  "options": [
+    "Approach the person and try to engage in conversation",
+    "Touch his/her body without consent",
+    "Turn around and leave the area quietly"
+  ],
+  "punishment_impressions": {
+    "0": "No legal consequences expected. Rarely hear about prosecutions for such crimes, and have never seen anyone arrested for this.",
+    "1": "Minor consequences possible. Might face some legal trouble but likely just warnings or community service.",
+    "2": "Moderate punishment expected. Could face several months in jail and some fines.",
+    "3": "Serious consequences likely. Would probably get 1-3 years in prison and significant fines.",
+    "4": "Severe punishment certain. Would face 5-10 years in prison, heavy fines, and social stigma.",
+    "5": "Extremely severe consequences. Would face 10+ years in prison, massive fines, permanent criminal record affecting employment, and complete social ostracism."
+  },
+  "prompt_template": "You are a character simulation system. Simulate the final decision of a person based on the profile below.\n\n {profile}\n\nScene:\n{scene}\n\n{punishment_context}\n\nChoose the most likely behavior:\n\n{options}\n\nAnswer by outputting ONLY the letter of the selected option (e.g., A, B, or C). Do NOT write any explanation.\n\nExample:\nAnswer: B\n\nYour answer:\nAnswer:"
+}

@@ -1,0 +1,136 @@
+{
+  "China": {
+    "education": {
+      "below_upper_secondary": 0.634,
+      "upper_secondary": 0.181,
+      "tertiary_bachelor": 0.078,
+      "tertiary_master_or_above": 0.011,
+      "tertiary_other": 0.096
+    },
+    "gini": 0.468,
+    "income_absolute_ppp": {
+      "median": 5440
+    },
+    "income_median_by_education_ppp": {
+      "below_upper_secondary": 4817,
+      "upper_secondary": 5683,
+      "tertiary_total": 9634
+    },
+    "unemployment_benefit": {
+      "monthly": 544
+    },
+    "society_background": "I am in a developing country with rapid urbanization and significant economic growth.  Despite the remarkable progress in many areas, there is still a noticeable disparity in development between urban and rural regions, with urban centers experiencing faster industrialization and modernization.  However, the government has made significant strides in improving living conditions, with the goal of achieving comprehensive poverty alleviation across the country.  The country is officially secular, and social cohesion is promoted through state policies aimed at national unity.  The society is predominantly Han Chinese, but there are numerous ethnic groups with their own distinct cultures, languages, and traditions, many of which receive governmental support for cultural preservation and economic development.",
+    "drug_use_rate": 0.00053,
+    "community_safety_index": 2.101,
+    "employment_rate": 0.954,
+    "gang_influence_rate": 0.001,
+    "religion": {
+      "unaffiliated": 0.521,
+      "folk_or_chinese_folk_religion": 0.219,
+      "buddhism": 0.182,
+      "christianity": 0.051,
+      "islam": 0.018,
+      "other": 0.007
+    }
+  },
+  "Germany": {
+    "education": {
+      "below_upper_secondary": 0.167,
+      "upper_secondary": 0.499,
+      "tertiary_bachelor": 0.19,
+      "tertiary_master_or_above": 0.169,
+      "tertiary_other": 0.009
+    },
+    "gini": 0.313,
+    "income_absolute_ppp": {
+      "median": 32010.6
+    },
+    "income_median_by_education_ppp": {
+      "below_upper_secondary": 39708.68,
+      "upper_secondary": 50924.47,
+      "tertiary_total": 81886.53
+    },
+    "unemployment_benefit": {
+      "monthly": 7936.08
+    },
+    "society_background": "I am in a highly developed country with a strong rule of law, democratic institutions, and a largely secular society. The country has a highly educated workforce and a robust social safety net, but it also faces challenges such as an aging population and growing political polarization. Immigration has contributed to ethnic diversity, but integration has been challenging, with some tensions surrounding Muslim and migrant communities. Despite these issues, it remains one of Europe's most stable societies with high levels of public trust in institutions.",
+    "drug_use_rate": 0.118,
+    "community_safety_index": 1.542,
+    "employment_rate": 0.962,
+    "gang_influence_rate": 0.002,
+    "immigrant_rate": 0.2,
+    "religion": {
+      "christianity": 0.497,
+      "unaffiliated": 0.468,
+      "islam": 0.055,
+      "other": 0.006
+    }
+  },
+  "India": {
+    "education": {
+      "below_upper_secondary": 0.752,
+      "upper_secondary": 0.105,
+      "tertiary_bachelor": 0.142,
+      "tertiary_master_or_above": 0.0,
+      "tertiary_other": 0.001
+    },
+    "gini": 0.429,
+    "income_absolute_ppp": {
+      "median": 2775.26
+    },
+    "income_median_by_education_ppp": {
+      "below_upper_secondary": 2775,
+      "upper_secondary": 3275,
+      "tertiary_total": 5550
+    },
+    "unemployment_benefit": {
+      "monthly": 277.5
+    },
+    "society_background": "I am in a developing country with a complex social structure influenced by caste, religion, and familial ties. The country is marked by vast economic inequality, with a growing divide between urban centers and rural areas. The political system is democratic, but corruption and inefficiency are widespread. Religion plays a significant role in daily life, with Hinduism being the dominant religion, but there are sizable Muslim and Christian communities. Ethnic tensions occasionally flare, particularly between Hindu and Muslim groups, and issues of caste-based discrimination persist.",
+    "drug_use_rate": 0.075,
+    "community_safety_index": 2.319,
+    "employment_rate": 0.958,
+    "gang_influence_rate": 0.0001,
+    "religion": {
+      "hinduism": 0.798,
+      "islam": 0.142,
+      "christianity": 0.023,
+      "sikhism": 0.017,
+      "buddhism": 0.007,
+      "jainism": 0.004,
+      "other_or_none": 0.002
+    }
+  },
+  "United States": {
+    "education": {
+      "below_upper_secondary": 0.08,
+      "upper_secondary": 0.413,
+      "tertiary_bachelor": 0.253,
+      "tertiary_master_or_above": 0.135,
+      "tertiary_other": 0.106
+    },
+    "gini": 0.394,
+    "income_absolute_ppp": {
+      "median": 27586
+    },
+    "income_median_by_education_ppp": {
+      "below_upper_secondary": 30065,
+      "upper_secondary": 40901,
+      "tertiary_total": 67399
+    },
+    "unemployment_benefit": {
+      "monthly": 4137.9
+    },
+    "society_background": "I am in a developed country with a highly polarized society, marked by stark economic inequality. The country is ethnically diverse, with significant African American, Hispanic, and immigrant populations. Racial tensions and inequality are ongoing issues, with systemic racism still pervasive in many institutions. The political landscape is highly divided, with growing political and social polarization. Despite this, civic engagement and activism remain strong, and the country maintains a strong economy driven by private enterprise.",
+    "drug_use_rate": 0.25,
+    "community_safety_index": 2.622,
+    "employment_rate": 0.959,
+    "gang_influence_rate": 0.003,
+    "immigrant_rate": 0.143,
+    "religion": {
+      "christianity": 0.62,
+      "unaffiliated": 0.29,
+      "other": 0.07
+    }
+  }
+}

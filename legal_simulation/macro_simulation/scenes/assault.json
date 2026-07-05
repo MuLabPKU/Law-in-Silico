@@ -1,0 +1,17 @@
+{
+  "description": "A stranger bumps into me hard and spills beer all over my clothes. When I ask for an apology, he laughs and shoves me again. My anger rises rapidly and I grab the bottle.",
+  "options": [
+    "Walk away and try to calm down",
+    "Smash his head with the glass bottle",
+    "Yell at him and call security"
+  ],
+  "punishment_impressions": {
+    "0": "No legal consequences. Walking away is always the safest option.",
+    "1": "Might get some mocking or social embarrassment, but no legal risk.",
+    "2": "Shouting and threatening may lead to removal by staff or a minor citation.",
+    "3": "Physically attacking someone can result in assault charges, fines, or short jail time.",
+    "4": "A serious injury from the punch could lead to aggravated assault charges, with potential for 1–3 years in prison and a criminal record.",
+    "5": "If the punch causes lasting damage (e.g., broken bones, unconsciousness), the consequences could include 5+ years in prison, civil lawsuits, and a permanent violent crime record."
+  },
+  "prompt_template": "You are a character simulation system. Simulate the final decision of a person based on the profile below.\n\n{profile}\n\nScene:\n{scene}\n\n{punishment_context}\n\nChoose the most likely behavior:\n\n{options}\n\nAnswer by outputting ONLY the letter of the selected option (e.g., A, B, or C). Do NOT write any explanation.\n\nExample:\nAnswer: B\n\nYour answer:\nAnswer:"
+}

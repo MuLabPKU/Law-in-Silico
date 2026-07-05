@@ -1,0 +1,56 @@
+[
+    {
+      "run_id": 1,
+      "law_codes": {
+        "SAFETY_INVESTMENT_001": {
+          "description": "All employers must maintain a minimum safety investment of $500 per month per employee to ensure safe working conditions. Employers must also conduct quarterly safety audits and address any identified hazards within 30 days.",
+          "penalty": "For violations, employers must pay a fine of $1,000 per violation and compensate affected employees at 1.5 times their hourly wage for any hours worked under unsafe conditions."
+        }
+      }
+    },
+    {
+      "run_id": 2,
+      "law_codes": {
+        "SAFETY_001": {
+          "description": "Employers are required to maintain a minimum safety investment of $500.00 per month per worker, adjusted annually for inflation. Any reduction below this threshold without prior approval from the town's safety regulatory body is prohibited.",
+          "penalty": "For violations, the employer must pay a fine equal to twice the amount of the underinvestment, distributed as compensation to affected workers, and must restore the safety investment to the required level within 30 days."
+        }
+      }
+    },
+    {
+      "run_id": 3,
+      "law_codes": {
+        "LABOR_OT_001": {
+          "description": "Employers must compensate employees at 1.5 times their standard hourly wage for any hours worked beyond the standard 40-hour workweek. Mandatory overtime must not exceed 10 hours per week without written consent from the employee.",
+          "penalty": "Employers violating this law must pay the owed overtime compensation plus an additional 50% of the owed amount as a penalty to the affected employee(s). Repeated violations (more than 3 instances in a year) may result in fines up to $5,000 per violation."
+        }
+      }
+    },
+    {
+      "run_id": 4,
+      "law_codes": {
+        "SAFETY_INVESTMENT_REGULATION": {
+          "description": "Companies are required to maintain a minimum safety investment of $500 per month per worker, adjusted annually for inflation. Any reduction below this threshold must be justified by equivalent safety improvements or approved by a worker safety committee.",
+          "penalty": "For violations, the company must pay a fine equal to twice the under-invested amount, distributed as compensation to affected workers."
+        }
+      }
+    },
+    {
+      "run_id": 5,
+      "law_codes": {
+        "SAFETY_001": {
+          "description": "All employers must maintain a minimum level of safety investments proportionate to the size and nature of their workforce, as determined by industry standards. Employers are also required to uphold implicit employment agreements regarding worker welfare, including safe working conditions.",
+          "penalty": "A fine of up to 200% of the average monthly safety investment ($1000.00) for violations, plus mandatory corrective actions to meet safety standards within 30 days."
+        }
+      }
+    },
+    {
+      "run_id": 6,
+      "law_codes": {
+        "LABOR_001": {
+          "description": "Employers must pay employees at least 1.5 times their regular hourly wage for any hours worked beyond 40 hours per week. The maximum allowable work hours per week is 50, unless an emergency exception is granted by the town's labor board.",
+          "penalty": "For violations, employers must compensate affected employees at double the owed overtime pay and may be fined up to $1000 per violation, depending on severity and frequency."
+        }
+      }
+    }
+  ]

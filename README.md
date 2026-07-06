@@ -1,6 +1,6 @@
 # Law in Silico: Simulating Legal Society with LLM-Based Agents
 
-![framework](framework_0104.pdf)
+![framework](framework_0104_00.jpg)
 
 ## Repository at a glance
 

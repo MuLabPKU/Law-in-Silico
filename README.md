@@ -1,14 +1,4 @@
-# Law-Society
-
-## Project purpose
-
-Law-Society is the paper code repository for LLM-based legal and social simulation experiments. It contains three related but separate pieces:
-
-- Micro simulation: small-agent, multi-step interaction.
-- Macro simulation: many-agent, single-step decision experiments.
-- Micro-Macro Bridge: an optional API utility for scale-transfer or mapping experiments.
-
-Micro and macro are independent code paths used in the paper. The bridge can help with selected mapping experiments, but it is not required for ordinary micro or macro runs. This README is limited to code-backed repository orientation, entrypoints, setup, smoke tests, and caveats. It does not claim that full paper reproduction has been validated.
+# Law in Silico: Simulating Legal Society with LLM-Based Agents
 
 ## Repository at a glance
 

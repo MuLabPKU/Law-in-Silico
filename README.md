@@ -1,4 +1,6 @@
 # Law in Silico: Simulating Legal Society with LLM-Based Agents
+[![arXiv](https://img.shields.io/badge/arXiv-2510.24442-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.24442)
+[![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-Findings%20of%20ACL%202026-2D6DB5.svg)](https://aclanthology.org/2026.findings-acl.396/)
 
 ![framework](framework_0104_00.jpg)
 
@@ -244,3 +246,32 @@ Do not commit API keys, bearer tokens, passwords, private endpoints, real model 
 - Macro runs require separate vLLM/GPU/local model setup.
 - The bridge is an optional API utility and has no committed CLI.
 - The repository does not currently include a verified license file.
+
+## Citation
+
+If you find this repository useful, please cite our paper:
+
+```bibtex
+@inproceedings{wang-etal-2026-law,
+    title = "Law in Silico: Simulating Legal Society with {LLM}-Based Agents",
+    author = "Wang, Yiding  and
+      Chen, Yuxuan  and
+      Meng, Fanxu  and
+      Chen, Xifan  and
+      Yang, Xiaolei  and
+      Zhang, Muhan",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.396/",
+    doi = "10.18653/v1/2026.findings-acl.396",
+    pages = "8061--8104",
+    ISBN = "979-8-89176-395-1"
+}
+```
